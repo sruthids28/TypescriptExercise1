@@ -1,9 +1,8 @@
-"use strict";
-let employees = [
-    { name: "John Doe", age: 25, position: "Developer" },
-    { name: "Jane Doe", age: 32, position: "Manager" },
-    { name: "Bob Smith", age: 40, position: "CEO" },
-    { name: "Alice Brown", age: 28, position: "Designer" }
+var employees = [
+    { name: "Sruthi", age: 21, position: "Developer" },
+    { name: "Diya", age: 32, position: "Manager" },
+    { name: "Riya", age: 40, position: "CEO" },
+    { name: "Priya", age: 28, position: "Designer" }
 ];
-let filteredEmployees = employees.filter(employee => employee.age > 30);
+var filteredEmployees = employees.filter(function (employee) { return employee.age > 30; });
 console.log(filteredEmployees);
